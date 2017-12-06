@@ -7,6 +7,7 @@ import { HttpLinkModule, HttpLink } from 'apollo-angular-link-http';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 
 import { AppComponent } from './app.component';
+import { environment } from './../environments/environment';
 
 
 @NgModule({
@@ -27,7 +28,7 @@ export class AppModule {
     apollo.create({
       // By default, this client will send queries to the
       // `/graphql` endpoint on the same host
-      link: httpLink.create({uri: 'http://127.0.0.1:4000/graphql'}),
+      link: httpLink.create({uri: environment.graphQL_uri}),
       cache: new InMemoryCache()
     });
   }
