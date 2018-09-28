@@ -333,9 +333,12 @@ apollo-angular-link-http@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/apollo-angular-link-http/-/apollo-angular-link-http-1.0.1.tgz#230a488295f704b5a95fccc831fdf0b14b068d22"
 
-apollo-angular@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/apollo-angular/-/apollo-angular-1.0.0.tgz#52a292437acf039de7658eaf131b8a1d88d8f0d7"
+apollo-angular@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/apollo-angular/-/apollo-angular-1.4.0.tgz#978826e8162e0528177725700b09b74181aeebef"
+  dependencies:
+    semver "^5.5.1"
+    tslib "^1.9.0"
 
 apollo-cache-inmemory@^1.1.2:
   version "1.1.2"
@@ -5013,6 +5016,10 @@ semver-dsl@^1.0.1:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 
+semver@^5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.1.tgz#7dfdd8814bdb7cabc7be0fb1d734cfb66c940477"
+
 semver@~4.3.3:
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/semver/-/semver-4.3.6.tgz#300bc6e0e86374f7ba61068b5b1ecd57fc6532da"
@@ -5625,6 +5632,10 @@ tsickle@^0.24.0:
 tslib@^1.7.1:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.8.0.tgz#dc604ebad64bcbf696d613da6c954aa0e7ea1eb6"
+
+tslib@^1.9.0:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
 tslint@~5.7.0:
   version "5.7.0"
