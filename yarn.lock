@@ -337,19 +337,25 @@ apollo-angular@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/apollo-angular/-/apollo-angular-1.0.0.tgz#52a292437acf039de7658eaf131b8a1d88d8f0d7"
 
-apollo-cache-inmemory@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/apollo-cache-inmemory/-/apollo-cache-inmemory-1.1.2.tgz#555d4d76cbea78b1454013f61aa8a8bc8131601f"
+apollo-cache-inmemory@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/apollo-cache-inmemory/-/apollo-cache-inmemory-1.3.5.tgz#7628ee598271cfffa611e15a7ce67652a84b07b0"
   dependencies:
-    apollo-cache "^1.0.2"
-    apollo-utilities "^1.0.3"
-    graphql-anywhere "^4.0.2"
+    apollo-cache "^1.1.17"
+    apollo-utilities "^1.0.21"
+    optimism "^0.6.6"
 
 apollo-cache@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/apollo-cache/-/apollo-cache-1.0.2.tgz#e3df98696c648649d16a6c3ca9c19e90a556effa"
   dependencies:
     apollo-utilities "^1.0.3"
+
+apollo-cache@^1.1.17:
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/apollo-cache/-/apollo-cache-1.1.17.tgz#1fcca8423125223723b97fd72808be91a1a76490"
+  dependencies:
+    apollo-utilities "^1.0.21"
 
 apollo-client@^2.1.0:
   version "2.1.0"
@@ -382,6 +388,13 @@ apollo-link@^1.0.0, apollo-link@^1.0.4:
 apollo-utilities@^1.0.0, apollo-utilities@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.0.3.tgz#bf435277609850dd442cf1d5c2e8bc6655eaa943"
+
+apollo-utilities@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.0.21.tgz#cb8b5779fe275850b16046ff8373f4af2de90765"
+  dependencies:
+    fast-json-stable-stringify "^2.0.0"
+    fclone "^1.0.11"
 
 app-root-path@^2.0.1:
   version "2.0.1"
@@ -2072,6 +2085,10 @@ faye-websocket@~0.11.0:
   dependencies:
     websocket-driver ">=0.5.1"
 
+fclone@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/fclone/-/fclone-1.0.11.tgz#10e85da38bfea7fc599341c296ee1d77266ee640"
+
 file-loader@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-1.1.5.tgz#91c25b6b6fbe56dae99f10a425fd64933b5c9daa"
@@ -2399,12 +2416,6 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphql-anywhere@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/graphql-anywhere/-/graphql-anywhere-4.0.2.tgz#1dd13a53a659c5e09d0b6ccecfba771ee4939fa1"
-  dependencies:
-    apollo-utilities "^1.0.3"
-
 graphql-tag@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.5.0.tgz#b43bfd8b5babcd2c205ad680c03e98b238934e0f"
@@ -2698,6 +2709,10 @@ iferr@^0.1.5:
 image-size@~0.5.0:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
+
+immutable-tuple@^0.4.4:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/immutable-tuple/-/immutable-tuple-0.4.8.tgz#f60b65b863d34be39d307d1bbf4a450e1ac3048a"
 
 import-local@^0.1.1:
   version "0.1.1"
@@ -3900,6 +3915,12 @@ opn@^5.1.0, opn@~5.1.0:
   resolved "https://registry.yarnpkg.com/opn/-/opn-5.1.0.tgz#72ce2306a17dbea58ff1041853352b4a8fc77519"
   dependencies:
     is-wsl "^1.1.0"
+
+optimism@^0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/optimism/-/optimism-0.6.6.tgz#5415b2d6a2f8b3745aedb9f97fdf4e52467ecd84"
+  dependencies:
+    immutable-tuple "^0.4.4"
 
 optimist@^0.6.1, optimist@~0.6.0:
   version "0.6.1"
