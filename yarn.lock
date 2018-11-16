@@ -179,9 +179,9 @@
   dependencies:
     "@angular-devkit/core" "0.0.22"
 
-"@types/async@2.0.45":
-  version "2.0.45"
-  resolved "https://registry.yarnpkg.com/@types/async/-/async-2.0.45.tgz#0cfe971d7ed5542695740338e0455c91078a0e83"
+"@types/async@2.0.50":
+  version "2.0.50"
+  resolved "https://registry.yarnpkg.com/@types/async/-/async-2.0.50.tgz#117540e026d64e1846093abbd5adc7e27fda7bcb"
 
 "@types/jasmine@*":
   version "2.8.2"
@@ -209,9 +209,13 @@
   version "2.53.43"
   resolved "https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-2.53.43.tgz#2de3d718819bc20165754c4a59afb7e9833f6707"
 
-"@types/zen-observable@0.5.3", "@types/zen-observable@^0.5.3":
+"@types/zen-observable@0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.5.3.tgz#91b728599544efbb7386d8b6633693a3c2e7ade5"
+
+"@types/zen-observable@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.0.tgz#8b63ab7f1aa5321248aad5ac890a485656dcea4d"
 
 abbrev@1:
   version "1.1.1"
@@ -345,25 +349,31 @@ apollo-cache-inmemory@^1.1.2:
     apollo-utilities "^1.0.3"
     graphql-anywhere "^4.0.2"
 
+apollo-cache@1.1.20:
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/apollo-cache/-/apollo-cache-1.1.20.tgz#6152cc4baf6a63e376efee79f75de4f5c84bf90e"
+  dependencies:
+    apollo-utilities "^1.0.25"
+
 apollo-cache@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/apollo-cache/-/apollo-cache-1.0.2.tgz#e3df98696c648649d16a6c3ca9c19e90a556effa"
   dependencies:
     apollo-utilities "^1.0.3"
 
-apollo-client@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-2.1.0.tgz#1d3716cb5d4ad70c3a4147da629fdfcb53925e7b"
+apollo-client@^2.4.6:
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-2.4.6.tgz#ba24a2def6ea9d487b41672652ca967cc7c05e4a"
   dependencies:
-    "@types/zen-observable" "^0.5.3"
-    apollo-cache "^1.0.2"
+    "@types/zen-observable" "^0.8.0"
+    apollo-cache "1.1.20"
     apollo-link "^1.0.0"
     apollo-link-dedup "^1.0.0"
-    apollo-utilities "^1.0.3"
+    apollo-utilities "1.0.25"
     symbol-observable "^1.0.2"
-    zen-observable "^0.6.0"
+    zen-observable "^0.8.0"
   optionalDependencies:
-    "@types/async" "2.0.45"
+    "@types/async" "2.0.50"
 
 apollo-link-dedup@^1.0.0:
   version "1.0.3"
@@ -378,6 +388,12 @@ apollo-link@^1.0.0, apollo-link@^1.0.4:
     "@types/zen-observable" "0.5.3"
     apollo-utilities "^1.0.0"
     zen-observable "^0.6.0"
+
+apollo-utilities@1.0.25, apollo-utilities@^1.0.25:
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.0.25.tgz#899b00f5f990fb451675adf84cb3de82eb6372ea"
+  dependencies:
+    fast-json-stable-stringify "^2.0.0"
 
 apollo-utilities@^1.0.0, apollo-utilities@^1.0.3:
   version "1.0.3"
@@ -6248,6 +6264,10 @@ yn@^2.0.0:
 zen-observable@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.6.0.tgz#8a6157ed15348d185d948cfc4a59d90a2c0f70ee"
+
+zen-observable@^0.8.0:
+  version "0.8.11"
+  resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.11.tgz#d3415885eeeb42ee5abb9821c95bb518fcd6d199"
 
 zone.js@^0.8.14:
   version "0.8.18"
